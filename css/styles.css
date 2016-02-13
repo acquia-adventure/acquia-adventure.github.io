@@ -1,10 +1,16 @@
+body {
+  background-color: #e6ebff;
+}
+
+header {
+  text-align: center;
+  padding: 2.5% 5%;
+}
+
 #playGame {
   text-decoration: none;
   padding: 10px 15px;
   text-align: center;
   color: white;
   background-color: #003366;
-}
-body {
-  background-color: #e6ebff;
 }
