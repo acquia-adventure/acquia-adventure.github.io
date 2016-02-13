@@ -7,7 +7,7 @@ header {
   padding: 2.5% 5%;
 }
 
-#playGame {
+.btn {
   text-decoration: none;
   padding: 10px 15px;
   text-align: center;
