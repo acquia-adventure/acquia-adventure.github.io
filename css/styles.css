@@ -53,14 +53,6 @@ footer {
     text-shadow: none;
 }
 
-#typing {
-    background-color: white;
-    height: 12cm;
-    padding: 10px;
-    width: 100%;
-    margin: auto;
-}
-
 #one { background: center url('../img/acquia-building.jpg') }
 #two { background: center url('../img/kitchen.jpg') }
 #thr { background: no-repeat center/cover url('../img/team-tesla.jpg') }
@@ -153,9 +145,9 @@ footer {
 
 #typing {
     background-color: white;
-    height: 6cm;
+    height: 12cm;
     padding: 10px;
-    width: 103%;
+    width: 90%;
     margin: auto;
 }
  
@@ -167,4 +159,14 @@ footer {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+}
+
+#playIntroTwo {
+    display:table;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+pre {
+   font-size: 19px;
 }
