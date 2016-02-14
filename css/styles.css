@@ -75,3 +75,7 @@ h2 {
 @-webkit-keyframes type{
     from { width: 0; }
 }
+
+#typeThing {
+    border: 10px;
+}
