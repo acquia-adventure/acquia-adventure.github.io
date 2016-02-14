@@ -77,5 +77,10 @@ h2 {
 }
 
 #typeThing {
-    
+    text-align: left;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
