@@ -162,5 +162,6 @@ footer {
 }
 
 #playIntroTwo {
-    margin: auto;
+    display:table;
+    margin: 0 auto;
 }
