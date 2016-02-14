@@ -39,7 +39,7 @@ nav {
   padding: .1rem;
 }
 
-.intro {
+.intro, footer {
     padding: 15% 5% 0;
     text-align: center;
     font-family: Montserrat,Arial,sans-serif;
@@ -61,9 +61,9 @@ nav {
     margin: auto;
 }
 
-#one { background: url('../img/acquia-building.jpg') center }
-#two { background: url('../img/kitchen.jpg') center }
-#thr { background: url('../img/tesla.jpg') center }
+#one { background: center url('../img/acquia-building.jpg') }
+#two { background: center url('../img/kitchen.jpg') }
+#thr { background: no-repeat center/cover url('../img/team-tesla.jpg') }
 
 h2 {
     margin-bottom: 1rem;
