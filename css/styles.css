@@ -53,14 +53,6 @@ footer {
     text-shadow: none;
 }
 
-#typing {
-    background-color: white;
-    height: 12cm;
-    padding: 10px;
-    width: 80%;
-    margin: auto;
-}
-
 #one { background: center url('../img/acquia-building.jpg') }
 #two { background: center url('../img/kitchen.jpg') }
 #thr { background: no-repeat center/cover url('../img/team-tesla.jpg') }
