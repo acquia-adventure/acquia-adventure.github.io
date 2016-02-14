@@ -171,3 +171,15 @@ footer {
 pre {
    font-size: 19px;
 }
+
+#slideshow {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#movie {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
