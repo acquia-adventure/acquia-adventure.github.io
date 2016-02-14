@@ -5,46 +5,47 @@
         <link rel="icon" type="favicon" href="/img/favicon.ico">
         <title>Acquia Adventure</title>
         <link rel="stylesheet" href="../css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     </head>
     
     <body>
-    <section id="introGame">
-        <br>
-        <button id="playIntroTwo" class="btn">Play Intro</button>
-        <div id="typing">
-            <pre id="typeThing1" class="css-typing-hidden">
-                It is Code Day 2016!
-            </pre>
-            <pre id="typeThing2" class="css-typing-hidden">
-                12:00 pm ~ The contest starts and your group (James + modivational support) begin coding. Aidan got M&Ms.
-            </pre>
-            <pre id="typeThing3" class="css-typing-hidden">
-                1:00 am ~ The code is going well, but now - a lunch break! You head out and take a sampling of the great buffet.
-            </pre>
-            <pre id="typeThing4" class="css-typing-hidden">
-                8:00 pm ~ James is finishing graphical components, Jamie is our PA and Addison is... what is he doing?
-            </pre>
-            <pre id="typeThing5" class="css-typing-hidden">
-                9:00 pm ~ Kat's working on the website, and Cameron is making buttons. The man on the wall watches our progress.
-            </pre>
-            <pre id="typeThing6" class="css-typing-hidden">
-                10:00 pm ~ Cameron is fixing buttons. James is making pretty much everything. Addison got a coffee.
-            </pre>
-            <pre id="typeThing7" class="css-typing-hidden">
-                11:00 pm ~ Cameron is... still fixing buttons. Austin Powers is staring at us creepily. Aidan got hershey kisses.
-            </pre>
-            <pre id="typeThing8" class="css-typing-hidden">
-                12:00 am ~ The code is finished. James looks to put the final touches, when he finds all the code has been deleted!
-            </pre>
-            <pre id="typeThing9" class="css-typing-hidden">
-                ...and the backup flashdrive has been mysteriously encrypted!!! :O   //hacker... <hack.start_hack> 3...2..
-            </pre>
-            </pre>
-            <pre id="typeThing10" class="css-typing-hidden">
-                You must fix the code and bring it to Floor 10.5 before the ti_PROGRAM_TERMINATED_
-            </pre>
-        </div>
-    </section>
+    <div id="fullpage">
+        <section id="introGame">
+            <button id="playIntroTwo" class="btn">Play Intro</button>
+            <div id="typing">
+                <pre id="typeThing1" class="css-typing-hidden">
+                    It is Code Day 2016!
+                </pre>
+                <pre id="typeThing2" class="css-typing-hidden">
+                    12:00 pm ~ The contest starts and your group (James + modivational support) begin coding. Aidan got M&Ms.
+                </pre>
+                <pre id="typeThing3" class="css-typing-hidden">
+                    1:00 am ~ The code is going well, but now - a lunch break! You head out and take a sampling of the great buffet.
+                </pre>
+                <pre id="typeThing4" class="css-typing-hidden">
+                    8:00 pm ~ James is finishing graphical components, Jamie is our PA and Addison is... what is he doing?
+                </pre>
+                <pre id="typeThing5" class="css-typing-hidden">
+                    9:00 pm ~ Kat's working on the website, and Cameron is making buttons. The man on the wall watches our progress.
+                </pre>
+                <pre id="typeThing6" class="css-typing-hidden">
+                    10:00 pm ~ Cameron is fixing buttons. James is making pretty much everything. Addison got a coffee.
+                </pre>
+                <pre id="typeThing7" class="css-typing-hidden">
+                    11:00 pm ~ Cameron is... still fixing buttons. Austin Powers is staring at us creepily. Aidan got hershey kisses.
+                </pre>
+                <pre id="typeThing8" class="css-typing-hidden">
+                    12:00 am ~ The code is finished. James looks to put the final touches, when he finds all the code has been deleted!
+                </pre>
+                <pre id="typeThing9" class="css-typing-hidden">
+                    ...and the backup flashdrive has been mysteriously encrypted!!! :O   //hacker... <hack.start_hack> 3...2..
+                </pre>
+                <pre id="typeThing10" class="css-typing-hidden">
+                    You must fix the code and bring it to Floor 10.5 before the ti_PROGRAM_TERMINATED_
+                </pre>
+            </div>
+        </section>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script>
@@ -99,12 +100,17 @@
             $("#typeThing10").removeClass();
             $("#typeThing10").addClass("css-typing");
        }
+          
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+				scrollBar: true
+			});
+		});
        </script>
     <nav>
         <a class="btn" href="..">Play</a>
         <a class="btn" href="../game">Our Game</a>
         <a class="btn" href="../stuff">The Experience!</a>
     </nav>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     </body>
 </html>
