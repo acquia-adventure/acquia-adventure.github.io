@@ -9,6 +9,10 @@ body {
     background-color: #e6ebff;
 }
 
+#experiences {
+    width: 50%;
+}
+
 header {
     text-align: center;
     padding: 12.5% 5%;
