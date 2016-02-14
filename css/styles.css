@@ -172,7 +172,7 @@ pre {
 }
 
 #slideshow {
-    position: absolute;
+    position: fixed;
     margin-right: 10px;
     margin-bottom: 10px;
 }
