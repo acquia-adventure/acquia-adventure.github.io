@@ -31,6 +31,11 @@ nav {
     font-size: 1.5rem;
     color: #222;
 }
+
+section.intro {
+    background-color: white;
+}
+
 #one { background: url('../img/acquia-building.jpg') }
 
 #two { background: url('../img/kitchen.jpg') }
