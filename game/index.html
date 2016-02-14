@@ -8,7 +8,21 @@
     </head>
     
     <body>
-        
+    <section class="intro">
+        <button id="playIntroTwo">Play Intro</button>
+        <p id="typeThing" class="css-typing-hidden">This is a paragraph that is being typed by CSS animation.</p> <!--class="css-typing"-->
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script>
+      $(document).ready(function() {
+          $("#playIntroTwo").click(function() {
+              $("#typeThing").removeClass();
+              //$("#typeThing").css("visibility", "visible");
+              $("#typeThing").addClass("css-typing");
+          });
+       });
+       </script>
     <nav>
         <a class="btn" href="play">Play</a>
         <a class="btn" href="game">Our Game</a>
