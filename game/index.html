@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="favicon" href="/img/favicon.ico">
+        <title>Acquia Adventure</title>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    
+    <body>
+    <section class="intro">
+        <button id="playIntroTwo" class="btn">Play Intro</button><br><br>
+        <pre id="typeThing" class="css-typing-hidden">
+            It is Code Day 2016!
+        </pre>
+        <pre id="typeThingTwo" class="css-typing-hidden">
+            12:00 pm ~ The contest starts and your group (James + support) begin coding.
+        </pre>
+        <pre id="typeThingThree" class="css-typing-hidden">
+            12:00 am ~ The code is finished. James looks to put the final touches, when he finds all the code has been deleted and the backup flashdrive has been mysteriously encyrpted :O
+        </pre>
+        <pre id="typeThingFour" class="css-typing-hidden">
+            You must fix the code and bring it to Floor 10.5 before the time is up!
+        </pre>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script>
+      $(document).ready(function() {
+          $("#playIntroTwo").click(function() {
+              $("#typeThing").removeClass();
+              $("#typeThing").addClass("css-typing");
+              setTimeout(typeThingTwo, 1500);
+              setTimeout(typeThingThree, 1500);
+              setTimeout(typeThingFour, 1500);
+          });
+       });
+       function typeThingTwo() {
+            $("#typeThingTwo").removeClass();
+            $("#typeThingTwo").addClass("css-typing");
+       }
+       function typeThingThree() {
+            $("#typeThingThree").removeClass();
+            $("#typeThingThree").addClass("css-typing");
+       }
+       function typeThingFour() {
+            $("#typeThingFour").removeClass();
+            $("#typeThingFour").addClass("css-typing");
+       }
+       </script>
+    <nav>
+        <a class="btn" href="..">Play</a>
+        <a class="btn" href="../game">Our Game</a>
+        <a class="btn" href="../stuff">Stuff</a>
+    </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    </body>
+</html>

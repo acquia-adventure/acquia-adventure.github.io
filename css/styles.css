@@ -68,3 +68,33 @@ footer {
 #download:hover, #download:active {
     background-image: url('../img/raindrop-light.png')
 }
+.css-typing-hidden {
+    visibility: hidden;
+}
+
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+#typeThing {
+    text-align: left;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+}
