@@ -33,6 +33,9 @@ nav {
 }
 #one { background: url('../img/acquia-building.jpg') }
 
+#two { background: url('../img/kitchen.jpg') }
+#thr { background: url('../img/tesla.jpg') }
+
 h2 {
     margin-bottom: 1rem;
 }
@@ -76,6 +79,29 @@ h2 {
     from { width: 0; }
 }
 
+footer {
+     text-align: center;
+     padding-bottom: 1rem;
+ }
+ 
+ #download {
+     display: inline-block;
+     font: bold 1.5rem/1em Montserrat,Arial,sans-serif;
+     text-decoration: none;
+     height: 200px;
+     width: 145px;
+     padding-top: 7.25rem;
+     box-sizing: border-box;
+     background-image: url('../img/raindrop.png');
+     background-size: 100%;
+     background-repeat: no-repeat;
+     color: #fff;
+     transition: .2s;
+ }
+ #download:hover, #download:active {
+     background-image: url('../img/raindrop-light.png')
+ }
+ 
 #typeThing, #typeThingTwo, #typeThingThree, #typeThingFour {
     text-align: left;
     display: block;
