@@ -53,6 +53,14 @@ nav {
     text-shadow: 0 0 2.5px #000;
 }
 
+#typing {
+    background-color: white;
+    height: 11cm;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
 #one { background: url('../img/acquia-building.jpg') center }
 #two { background: url('../img/kitchen.jpg') center }
 #thr { background: url('../img/tesla.jpg') center }
@@ -95,8 +103,8 @@ h2 {
     width: 30em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
+    -webkit-animation: type 5s steps(100, end);
+    animation: type 5s steps(100, end);
 }
 
 @keyframes type{
@@ -138,7 +146,7 @@ footer {
     margin: auto;
 }
  
-#typeThing, #typeThingTwo, #typeThingThree, #typeThingFour {
+#typeThing1, #typeThing2, #typeThing3, #typeThing4, #typeThing5, #typeThing6, #typeThing7, #typeThing8, #typeThing9, #typeThing10 {
     text-align: left;
     display: block;
     margin-top: 1em;
