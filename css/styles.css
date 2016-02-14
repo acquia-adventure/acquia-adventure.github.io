@@ -10,10 +10,13 @@ header {
 .btn {
   text-decoration: none;
   padding: 10px 15px;
-  text-align: center;
   color: white;
   background-color: #003366;
-  top: 5px;
+}
+
+nav {
+  text-align: center;
+  padding: .5rem;
 }
 
 .intro {
