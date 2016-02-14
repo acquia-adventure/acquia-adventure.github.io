@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,8 +11,21 @@ body {
 
 header {
     text-align: center;
-    padding: 2.5% 5%;
+    padding: 12.5% 5%;
 }
+
+header img {
+    margin-bottom: 1.25rem;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+h3 { font: bold 1.5rem/1.35em Montserrat,Arial,sans-serif }
+h4 { font: normal 1.25rem/1.35em Montserrat,Arial,sans-serif }
 
 .btn {
     text-decoration: none;
@@ -25,26 +40,22 @@ nav {
 }
 
 .intro {
-    padding: 2.5% 5%;
+    padding: 15% 5% 0;
     text-align: center;
     font-family: Montserrat,Arial,sans-serif;
     font-size: 1.5rem;
-    color: #222;
+    color: #111;
+    text-shadow: 0 0 1px #fff;
     margin: auto;
 }
-
-#typing {
-    background-color: white;
-    height: 6cm;
-    padding: 10px;
-    width: 103%;
-    margin: auto;
+.intro:nth-child(2n) {
+    color: #eee;
+    text-shadow: 0 0 2.5px #000;
 }
 
-#one { background: url('../img/acquia-building.jpg') }
-
-#two { background: url('../img/kitchen.jpg') }
-#thr { background: url('../img/tesla.jpg') }
+#one { background: url('../img/acquia-building.jpg') center }
+#two { background: url('../img/kitchen.jpg') center }
+#thr { background: url('../img/tesla.jpg') center }
 
 h2 {
     margin-bottom: 1rem;
@@ -58,16 +69,23 @@ h2 {
     border-right: 1px solid #aaa;
     padding: 1rem;
 }
-
 .stats:last-child {
     border-right: 0;
 }
-
 .stats p {
     font-size: 2.5rem;
     line-height: 1em;
     letter-spacing: -2px;
 }
+
+.tags {
+    display: inline-block;
+    padding: 1rem;
+    background: #0a0a33;
+    color: #fff;
+    text-shadow: none;
+}
+
 .css-typing-hidden {
     visibility: hidden;
 }
@@ -94,23 +112,31 @@ footer {
      padding-bottom: 1rem;
  }
  
- #download {
-     display: inline-block;
-     font: bold 1.5rem/1em Montserrat,Arial,sans-serif;
-     text-decoration: none;
-     height: 200px;
-     width: 145px;
-     padding-top: 7.25rem;
-     box-sizing: border-box;
-     background-image: url('../img/raindrop.png');
-     background-size: 100%;
-     background-repeat: no-repeat;
-     color: #fff;
-     transition: .2s;
- }
- #download:hover, #download:active {
-     background-image: url('../img/raindrop-light.png')
- }
+#download {
+    display: inline-block;
+    font: bold 1.5rem/1em Montserrat,Arial,sans-serif;
+    text-decoration: none;
+    height: 200px;
+    width: 145px;
+    padding-top: 7.25rem;
+    box-sizing: border-box;
+    background-image: url('../img/raindrop.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    transition: .2s;
+}
+#download:hover, #download:active {
+    background-image: url('../img/raindrop-light.png')
+}
+
+#typing {
+    background-color: white;
+    height: 6cm;
+    padding: 10px;
+    width: 103%;
+    margin: auto;
+}
  
 #typeThing, #typeThingTwo, #typeThingThree, #typeThingFour {
     text-align: left;

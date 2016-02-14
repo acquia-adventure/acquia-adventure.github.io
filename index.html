@@ -9,47 +9,61 @@
     </head>
     
     <body>
-        <header>
-            <img src="img/acquia-adventure-logo.png" alt="Acquia Adventure">
-        </header>
-        
-        <section id="demo">
-            <!--our introduction to the game-->
-        </section>
-        
-        <section class="intro" id="one">
-            <h2>You have arrived at CodeDay Boston.</h2>
-            <div class="stats">
-                -2&#176; F
-            </div>
-            <div class="stats">
-                12:00 PM
-            </div>
-            <div class="stats">
-                <p>53 State St<br>
-                Boston, MA 02109</p>
-            </div>
-        </section>
-        
-        <section class="intro" id="two">
-            <h2>You have 24 hours to build something amazing.</h2>
-        </section>
-        
-        <section class="intro" id="thr">
-            <h2>You form a team and, 12 hours later, finish your project.</h2>
-        </section>
-        
-        <footer>
-            <a id="download" href="Acquia_Adventure.jar">Download</a>
-        </footer>
-        
+        <div id="fullpage">
+            <header class="section">
+                <img src="img/acquia-adventure-logo.png" alt="Acquia Adventure">
+                <h3>A text-based game through CodeDay</h3>
+                <h4>Addison Abbot, Cameron Abbot, Katherine Huang,<br>Aidan Lee, James Pinckney, Jamie Tynan</h4>
+            </header>
+            
+            <section class="intro section" id="one">
+                <h2>You have arrived at CodeDay Boston.</h2>
+                <div class="stats">
+                    -2&#176; F
+                </div>
+                <div class="stats">
+                    12:00 PM
+                </div>
+                <div class="stats">
+                    <p>53 State St<br>
+                    Boston, MA 02109</p>
+                </div>
+            </section>
+
+            <section class="intro section" id="two">
+                <h2>You have 24 hours to build something</h2>
+                <div class="tags">awesome</div>
+                <div class="tags">fun</div>
+                <div class="tags">useful</div>
+                <div class="tags">entertaining</div>
+                <div class="tags">inspiring</div>
+                <div class="tags">unique</div>
+                <div class="tags">amazing</div>
+            </section>
+
+            <section class="intro section" id="thr">
+                <h2>You form a team and, 12 hours later, finish your project.</h2>
+            </section>
+
+            <footer class="section">
+                <a id="download" href="Acquia_Adventure.jar">Download</a>
+            </footer>
+        </div>
+
         <nav>
             <a class="btn" href="play">Play</a>
             <a class="btn" href="game">Our Game</a>
             <a class="btn" href="stuff">Stuff</a>
         </nav>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="js/typed.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/fullPage.min.js"></script>
+        <script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				scrollBar: true
+			});
+		});
+	</script>
     </body>
 </html>
