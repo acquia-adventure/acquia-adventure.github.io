@@ -173,6 +173,6 @@ pre {
 
 #slideshow {
     position: fixed;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    right: 10px;
+    bottom: 10px;
 }
