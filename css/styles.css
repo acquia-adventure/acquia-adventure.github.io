@@ -165,3 +165,7 @@ footer {
     display:table;
     margin: 0 auto;
 }
+
+pre {
+   font-size: 20px;
+}
