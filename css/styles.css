@@ -36,7 +36,7 @@ nav {
     background-color: white;
     height: 6cm;
     padding: 10px;
-    width: 105%;
+    width: 102%;
 }
 
 #one { background: url('../img/acquia-building.jpg') }
@@ -117,5 +117,5 @@ footer {
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    width: 103%;
+    width: 100%;
 }
