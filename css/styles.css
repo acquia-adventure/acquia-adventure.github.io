@@ -191,4 +191,6 @@ pre {
 
 h1 {
     font-family: calibri;
+    text-decoration: none;
+    color: blue;
 }
