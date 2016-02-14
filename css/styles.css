@@ -1,17 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  background-color: #e6ebff;
+    background-color: #e6ebff;
 }
 
 header {
-  text-align: center;
-  padding: 2.5% 5%;
+    text-align: center;
+    padding: 2.5% 5%;
 }
 
 .btn {
-  text-decoration: none;
-  padding: 10px 15px;
-  color: white;
-  background-color: #003366;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #003366;
 }
 
 nav {
@@ -20,5 +25,33 @@ nav {
 }
 
 .intro {
-  background-color: white;
+    padding: 2.5% 5%;
+    text-align: center;
+    font-family: Montserrat,Arial,sans-serif;
+    font-size: 1.5rem;
+    color: #222;
+}
+#one { background: url('../img/acquia-building.jpg') }
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.stats {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 4.5rem;
+    border-right: 1px solid #aaa;
+    padding: 1rem;
+}
+
+.stats:last-child {
+    border-right: 0;
+}
+
+.stats p {
+    font-size: 2.5rem;
+    line-height: 1em;
+    letter-spacing: -2px;
 }
