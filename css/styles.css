@@ -13,9 +13,9 @@ header {
   text-align: center;
   color: white;
   background-color: #003366;
+  top: 5px;
 }
 
-#centerButtons {
-  text-align: center;
-  top: 3px;
+.intro {
+  background-color: white;
 }
