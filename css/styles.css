@@ -15,8 +15,6 @@ header {
   background-color: #003366;
 }
 
-#topRight {
-  position: fixed;
-  right: 0;
-  top: 10px;
+#centerButtons {
+  text-align: center;
 }
