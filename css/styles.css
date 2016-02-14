@@ -170,3 +170,9 @@ footer {
 pre {
    font-size: 19px;
 }
+
+#slideshow {
+    position: absolute;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
